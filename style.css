@@ -2,6 +2,7 @@
 *{
     margin: 0;
     padding: 0;
+    border: none;
 }
  
 /* header section */
@@ -9,7 +10,8 @@
 header{
     width: 85%;
     max-width: 1600px;
-    margin:16px auto; 
+    margin:16px auto;
+    
 }
 nav{
     display: flex;
@@ -32,7 +34,7 @@ nav .menu a:hover{
     background-color: rgb(107, 100, 100);
     color: #edf1f6;
 }
-nav .btn button{
+nav .btn button {
     width: 164px;
     height: 44px;
     color:#FFFFFF;
@@ -42,6 +44,209 @@ nav .btn button{
 nav .btn button:hover{
     background-color: rgb(0, 0, 0);
     color: #edf1f6;
+    
 }
 
 /* Main section */
+section{
+margin:0 auto;
+}
+
+section .banner{
+    text-align: center;
+    
+    background: url("./assets/hero-bg.png");
+    background-repeat: no-repeat;
+   
+   
+}
+section .banner .banner-container{
+  height: 674px;
+  width: 1600px;
+ 
+  
+     
+}
+   
+
+section .banner-container .box{
+    border:rgb(21, 2, 2) 1px solid;
+    border-radius: 1000px;
+    height: 35px;
+    width: 229px;
+    margin: 0 auto;
+    text-align: center;
+    color: #469165;
+    background-color: white;
+     
+}
+ 
+
+
+.banner-container .box p{
+       margin: 8px 0 12px 34px;
+       color: #469165;
+      
+    
+}
+ .banner-container .text h1{
+    font-size: 72 px;
+    font-style: bolder;
+    font-weight: 700px;
+    color:rgba(255, 255, 255, 1);
+    margin-bottom: 16px;
+   
+   
+}
+ .banner-container .text .green{
+    color:rgba(48, 184, 104, 1);
+    margin-bottom: 16px;
+
+ }
+ .banner-container .paragraph p{
+    width: 1360px;
+    height: 60px;
+    line-height: 24px;
+   color:rgba(255, 255, 255, 1);
+   margin-bottom: 32px;
+ }
+
+ .banner-btn .green-btn {
+ 
+    color:#FFFFFF;
+    background-color:#469165;
+    padding:12px 16px;
+    border-radius: 4px;
+
+ }
+  .banner-btn .green-btn:hover{
+     background-color: rgb(0, 0, 0);
+    color: #edf1f6;
+  }
+ .banner-btn .blank-btn{
+    color:#070707;
+      padding:12px 16px;
+      border-radius: 4px;
+ }
+ .banner-btn .blank-btn:hover{
+    background-color:#828483ac;
+      padding:12px 16px;
+ }
+
+ /* note-section */
+
+.notes-section .heading{
+    margin-top:20px ;
+    text-align: center;
+ }
+ .notes-section .heading h1{
+    margin-bottom:16px ;
+    font-size: 48px;
+    font-weight: bolder;
+ }
+.notes-section .heading p{
+    margin-bottom:44px;
+    color:#627382;
+}
+
+ .card-container{
+    display: flex;
+    max-width:1360px;
+    width: 85%;
+    height: 300px;
+    margin: 0 auto;
+   
+ }
+ 
+.card-container .card{
+    
+    
+    width: 322px;
+    height: 300px;
+    text-align: center;
+    box-shadow: 4px 4px 4px rgba(168, 163, 163, 0.237);
+    margin: 0 auto;
+    gap: 24px;
+    padding: 24px;
+}
+.card-container h1{
+    font-size: 24px;
+    font-weight: 600;
+     margin:16px 24px ;
+    
+}
+.card-container p{
+    color: #627382;
+    line-height: 20px;
+}
+
+
+.card-container .card .icon{
+  height: 60px;
+  width: 60px;
+  background-color: red;
+  border-radius: 50%;
+  margin: 70px 0 31px 31px;
+  text-align: center;
+  
+
+}
+ 
+section .knowlegde-container{
+    display:flex;
+    gap:20px;
+    max-width: 85%;
+     width:1360px;
+    margin:120px auto 0;
+}
+section .knowlegde-container .point{
+    margin-top: 40px ;
+}
+ 
+
+.last-container{
+    text-align: center;
+    background-color: #F7F6F2;
+    width: 1360px;
+    height: 384px;
+    margin:120px auto;
+    padding:
+}
+.last-container .title{
+    padding:80px 40px 16px 40px ;
+}
+.early{
+     color:#FFFFFF;
+    background-color:#469165;
+    padding:12px 16px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+}
+
+.footer-container{
+    display: flex;
+    justify-content: space-around;
+    height: 348px;
+    width: 1350px;
+    max-width: 1600px;
+    background-color: #001931;
+    margin:0 auto;
+    margin-top: 120px;
+    
+}
+.footer-container .logo ,.for-socile{
+    margin-top:120px ;
+    
+}
+.footer-container .for-socile{
+    color:white;
+    gap:16px;
+}
+
+.footer-container .link{
+    text-align: right;
+    display: flex;
+    list-style: none;
+    
+}
+.footer-c
