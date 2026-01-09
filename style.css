@@ -1,0 +1,47 @@
+/* gloval section */
+*{
+    margin: 0;
+    padding: 0;
+}
+ 
+/* header section */
+
+header{
+    width: 85%;
+    max-width: 1600px;
+    margin:16px auto; 
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav .menu{
+    justify-content:space-between;
+    display: flex;
+    gap:32px;
+    list-style: none;
+    font-size: medium;  
+}
+nav .menu a{
+    text-decoration: none;
+     color: #000000;
+     cursor: pointer;   
+}
+nav .menu a:hover{
+    background-color: rgb(107, 100, 100);
+    color: #edf1f6;
+}
+nav .btn button{
+    width: 164px;
+    height: 44px;
+    color:#FFFFFF;
+    background-color:#469165;
+    padding:12px 16px;
+}
+nav .btn button:hover{
+    background-color: rgb(0, 0, 0);
+    color: #edf1f6;
+}
+
+/* Main section */
